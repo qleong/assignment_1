@@ -1,0 +1,38 @@
+Created By: Quintin Leong
+CMPS 104A
+Assignment #1
+
+This is my assignment number one.
+As specified by the assignment PDF, to create executable binary type
+
+> make all
+
+To delete object files and generated intermediate file type
+
+> make clean
+
+To delete object files along with executable image as well type
+
+> make spotless
+
+To check in source files into RCS type
+
+> make ci
+
+To recreate dependencies type
+
+>make deps
+
+----------------------
+
+To run the executable type
+
+> ./oc fileName.oc
+
+This will execute oc on fileName.oc
+
+Flags can be passed in as requested on the assignment
+
+> ./oc -ly fileName.oc
+
+

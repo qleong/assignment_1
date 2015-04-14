@@ -150,7 +150,7 @@ int main (int argc, char **argv) {
    cpplines(output, file);
    
    
-   // Construct target file called "program".str from basename of source program
+   //TODO: Construct target file called "program".str from basename of source program
 	char *path = new char[fileName.length() + 1]; 
 	strcpy(path, fileName.c_str());
 	string f_name = basename(path);
@@ -158,7 +158,7 @@ int main (int argc, char **argv) {
 	string base_name = f_name.substr(0, last_index);
 	base_name += ".str";
    
-   // Output the stringset contents into a file called 'program.str'
+   // TODO: 'dump' the stringset contents into a file called 'program.str'
    FILE *out_file;
    out_file = fopen(base_name.c_str(), "w");
    dump_stringset(out_file);
